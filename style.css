@@ -1,0 +1,103 @@
+html {
+    font-size: 16px;
+    border: 0px;
+    font-family: 'Lato', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-size: 3rem;
+}
+
+.title h2 {
+    margin: 1rem;
+}
+
+.underline {
+    height: 10px;
+    width: 50%;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#person-img {
+    height: 40vh;
+    width: 40vh;
+    margin: 20px 0px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 5px #aaaaaa;
+    object-position: top;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#author {
+    margin: 0px 0px;
+    font-size: 2rem;
+}
+
+#job {
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+#info {
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.button-container {
+    margin: 20px 0px;
+}
+
+.button-container button, .random-btn {
+    margin: 0px 20px;
+    background-color: darkcyan;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button-container button {
+    height: 30px;
+    width: 30px;
+}
+
+.random-btn {
+    
+    height: 30px;
+    width: 130px;
+}

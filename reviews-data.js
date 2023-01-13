@@ -1,7 +1,7 @@
 export const reviews = [
     {
       id: 1,
-      name: "susan smith",
+      name: "Susan Smith",
       job: "web developer",
       img:
         "./review-person-1.jpg",
@@ -10,7 +10,7 @@ export const reviews = [
     },
     {
       id: 2,
-      name: "anna johnson",
+      name: "Anna Johnson",
       job: "web designer",
       img:
         "./review-person-2.jpg",
@@ -19,7 +19,7 @@ export const reviews = [
     },
     {
       id: 3,
-      name: "peter jones",
+      name: "Peter Jones",
       job: "intern",
       img:
         "./review-person-3.jpg",
